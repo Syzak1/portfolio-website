@@ -72,13 +72,13 @@ footer {
 }
 
 .profile-pic {
-    width: 75px;  /* Adjust size */
-    height: 75px;
-    border-radius: 50%;  /* Makes it a circle */
-    border: 3px solid #fff;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    width: 80px;  /* Smaller size */
+    height: 80px;
+    border-radius: 50%;  /* Keeps it circular */
+    border: 2px solid #fff;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
     object-fit: cover;  /* Ensures it fills the circle properly */
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .video-container {
     position: relative;
