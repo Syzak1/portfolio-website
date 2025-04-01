@@ -148,7 +148,7 @@ html {
 }
 
 .modal-content {
-    background: #222; 
+    background: #111;  
     color: white;
     padding: 20px;
     margin: 5% auto;
@@ -156,7 +156,7 @@ html {
     border-radius: 10px;
     position: relative;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
 
 /* Make text inside modal more readable */
