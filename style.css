@@ -41,7 +41,7 @@ nav a:hover {
 
 section {
     width: 90%;
-    max-width: 1200px; 
+    max-width: 1200px;
     background-color: #111;
     padding: 20px;
     margin: 20px 0;
@@ -109,32 +109,12 @@ html {
     border-radius: 10px;
 }
 
-/* Hover Pop-up Info */
+/* Hover effect */
 .project-card:hover {
     background: #444;
     transform: scale(1.05);
 }
 
-.project-card .popup-info {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.9); /* Darker background */
-    color: white;
-    padding: 10px;
-    width: 250px;
-    border-radius: 8px;
-    text-align: left;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
-    z-index: 10; /* Ensure it's above other elements */
-    white-space: nowrap; /* Prevents text wrapping */
-}
-
-.project-card:hover .popup-info {
-    display: block;
-}
 /* Modal Pop-up */
 .modal {
     display: none;
@@ -148,7 +128,7 @@ html {
 }
 
 .modal-content {
-    background: #111;  
+    background: #222; 
     color: white;
     padding: 20px;
     margin: 5% auto;
@@ -156,7 +136,7 @@ html {
     border-radius: 10px;
     position: relative;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); 
 }
 
 /* Make text inside modal more readable */
@@ -185,17 +165,6 @@ html {
     cursor: pointer;
 }
 
-/* Media inside Modal */
-.modal-content video {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.modal-content audio {
-    width: 100%;
-    margin-top: 10px;
-}
-
 /* Back to Top Button */
 .back-to-top {
     color: white;
@@ -206,3 +175,4 @@ html {
 .back-to-top:hover {
     text-decoration: underline;
 }
+
