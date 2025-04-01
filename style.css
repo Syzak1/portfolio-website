@@ -148,14 +148,32 @@ html {
 }
 
 .modal-content {
-    background: white;
-    color: black;
+    background: #222; 
+    color: white;
     padding: 20px;
     margin: 5% auto;
     width: 60%;
     border-radius: 10px;
     position: relative;
     text-align: center;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); 
+}
+
+/* Make text inside modal more readable */
+.modal-content h2 {
+    color: #f0f0f0;
+}
+
+.modal-content p {
+    color: #ccc;
+}
+
+/* Adjust video and audio elements */
+.modal-content video, 
+.modal-content audio {
+    width: 100%;
+    border-radius: 10px;
+    background: #111; 
 }
 
 /* Close Button */
