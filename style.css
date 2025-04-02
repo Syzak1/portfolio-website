@@ -137,15 +137,26 @@ html {
 }
 
 .modal-content {
-    background: #222; 
+    background: #222;
     color: white;
     padding: 20px;
     margin: 5% auto;
-    width: 60%;
+    width: 90%; /* Adjust width to be more flexible */
+    max-width: 600px; /* Limit max width for larger screens */
     border-radius: 10px;
     position: relative;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+    overflow-y: auto; /* Allows scrolling inside popup if needed */
+    max-height: 80vh; /* Prevents it from going off screen */
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        max-width: 400px;
+        padding: 15px;
+    }
 }
 
 /* Make text inside modal more readable */
