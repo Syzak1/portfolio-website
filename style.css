@@ -72,8 +72,8 @@ footer {
 }
 
 .profile-pic {
-    width: 80px;  /* Smaller size */
-    height: 80px;
+    width: 200px;  /* Smaller size */
+    height: 200px;
     border-radius: 50%;  /* Keeps it circular */
     border: 2px solid #fff;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
@@ -145,7 +145,6 @@ html {
 }
 
 .modal-content {
-    background: #222 !important;
     color: white !important;
     padding: 20px;
     margin: 5% auto;
@@ -166,15 +165,9 @@ html {
         padding: 15px;
     }
 }
-.modal-header h2, .modal-title {
-    color: white !important; 
-}
 /* Make text inside modal more readable */
 .modal-content h2 {
     color: #f0f0f0;
-}
-.modal-body p {
-    color: #ddd !important; /* Make paragraph text clearer */
 }
 
 .modal-content p {
