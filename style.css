@@ -72,8 +72,8 @@ footer {
 }
 
 .profile-pic {
-    width: 200px;  /* Smaller size */
-    height: 200px;
+    width: 80px;  /* Smaller size */
+    height: 80px;
     border-radius: 50%;  /* Keeps it circular */
     border: 2px solid #fff;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
@@ -106,30 +106,22 @@ html {
 
 /* Project Cards */
 .project-card {
-    cursor: pointer;
+    background: #222;
+    color: white;
     padding: 20px;
-    border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+    width: 30%;
     text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    border-radius: 10px;
 }
 
 /* Hover effect */
 .project-card:hover {
+    background: #444;
     transform: scale(1.05);
-    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
-}
-
-.row.mt-12 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.col-md-5 {
-    flex: 1;
-    min-width: 250px; /* Ensure a minimum size */
-    max-width: 400px;
 }
 
 /* Modal Pop-up */
@@ -145,6 +137,7 @@ html {
 }
 
 .modal-content {
+    background: #222 !important;
     color: white !important;
     padding: 20px;
     margin: 5% auto;
@@ -165,9 +158,15 @@ html {
         padding: 15px;
     }
 }
+.modal-header h2, .modal-title {
+    color: white !important; 
+}
 /* Make text inside modal more readable */
 .modal-content h2 {
     color: #f0f0f0;
+}
+.modal-body p {
+    color: #ddd !important; /* Make paragraph text clearer */
 }
 
 .modal-content p {
@@ -203,4 +202,3 @@ html {
 .back-to-top:hover {
     text-decoration: underline;
 }
-
