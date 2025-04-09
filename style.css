@@ -101,6 +101,8 @@ pre {
   overflow-x: auto;
   white-space: pre-wrap;
   border-left: 2px solid #999;
+  text-indent: 2em;
+  margin-bottom: 1em;
 }
 
 /* Project Container */
