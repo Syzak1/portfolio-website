@@ -95,6 +95,14 @@ html {
     scroll-behavior: smooth;
 }
 
+pre {
+  background: transparent;
+  padding: 15px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  border-left: 2px solid #999;
+}
+
 /* Project Container */
 .projects-container {
     display: flex;
