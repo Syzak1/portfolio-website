@@ -96,7 +96,7 @@ html {
 }
 
 pre {
-  background: #f4f4f4;
+  color: #ccc;
   padding: 15px;
   overflow-x: auto;
   white-space: pre-wrap;
