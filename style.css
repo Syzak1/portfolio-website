@@ -126,6 +126,23 @@ pre {
     transition: 0.3s;
     position: relative;
     border-radius: 10px;
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 100%;
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+}
+
+@media (max-width: 1024px) {
+    .project-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        width: 100%;
+        font-size: 1em;
+    }
 }
 
 /* Hover effect */
